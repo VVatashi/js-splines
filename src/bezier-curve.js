@@ -1,4 +1,4 @@
-import { mix } from '@vvatashi/js-math-utils/src/utils';
+import { mix } from '../node_modules/@vvatashi/js-math-utils/src/utils.js';
 
 /**
  * @param {number[]|Float32Array} a

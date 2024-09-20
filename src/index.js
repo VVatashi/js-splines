@@ -1,2 +1,2 @@
-export { BezierCurve } from './bezier-curve';
-export { CubicBezierSpline } from './cubic-bezier-spline';
+export { BezierCurve } from './bezier-curve.js';
+export { CubicBezierSpline } from './cubic-bezier-spline.js';

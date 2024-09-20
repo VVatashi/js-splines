@@ -1,4 +1,4 @@
-import BezierCurve from './bezier-curve';
+import BezierCurve from './bezier-curve.js';
 
 export class CubicBezierSpline {
     /** @param {number[][]|Float32Array[]} points */
