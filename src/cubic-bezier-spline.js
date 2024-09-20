@@ -6,7 +6,7 @@ export class CubicBezierSpline {
         this.points = points;
         this.curves = new Array(points.length / 4);
         for (let i = 0; i < this.curves.length; i++)
-            this.curves[i] = new BezierCurve([points[i], points[i + 1], points[i + 2], points[i + 3]]);
+            this.curves[i] = new BezierCurve([points[4 * i], points[4 * i + 1], points[4 * i + 2], points[4 * i + 3]]);
     }
 
     /** @param {number} t */
