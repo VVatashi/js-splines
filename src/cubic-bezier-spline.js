@@ -11,7 +11,7 @@ export class CubicBezierSpline {
 
     /** @param {number} t */
     /*@__INLINE__*/ getPointAt(t) {
-        const index = Math.floor(t);
+        const index = Math.max(0, Math.min(Math.floor(t), this.curves.length - 1));
         return /*@__PURE__*/ this.curves[index].getPointAt(t - index);
     }
 }
